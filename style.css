@@ -1,3 +1,89 @@
-body{
-    background-color: blanchedalmond;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+nav {
+    font-family: "Open Sans", sans-serif;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(24, 24, 24);
+
+}
+.head{
+    background-image: url("images/header_bg.png"),url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+
+}
+.r-color{
+    color:rgb(253, 110, 10) ;
+}
+.link-css a{
+    font-size: 20px;
+    color:rgb(71, 71, 71);
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color:rgb(253, 110, 10);
+    border: none;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    transition-property:transform; 
+    height: 40px;
+    width: 180;
+}
+.hover button:hover{
+    transform: scale(1.1);
+}
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+}
+.hi{
+    font-size: 29px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mary{
+    /* background-color: red; */
+    margin-top: 10px;
+    font-size: 60px;
+    text-align: left;
+}
+.paragraph{
+    font-size: 20px;
+}
+.btn-2{
+    /* background-color:rgb(253, 110, 10); */
+    border-color:rgb(253, 110, 10) ;
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+    width: 300;    
+}
+.head{
+    /* display: flex; */
+}
+.profile-image{
+    width: 580px;
+}
+.bannar{
+    display: flex;
 }
